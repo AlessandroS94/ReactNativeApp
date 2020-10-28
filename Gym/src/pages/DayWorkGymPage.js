@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {ScrollView, Text, View} from 'react-native';
-import {useSafeArea} from 'react-native-safe-area-context';
 import DatePicker from 'react-native-modern-datepicker';
 import Card from '../components/Card';
 import {getToday} from 'react-native-modern-datepicker';
@@ -10,13 +9,6 @@ import SubPageTitle from '../components/SubPageTitle';
 import {sExerciseDate, sExerciseDescription,sExerciseTitle} from '../reducers/ExerciseReducer';
 import {appExerciseFormSet,appExerciseChangeTitle, appExerciseFormChangeDescription,appExerciseFormChangeDate, appExerciseFormReset} from '../actions';
 import {connect} from 'react-redux';
-
-const INITIAL_STATE = {
-    title: '',
-    description: '',
-    loading: false,
-    date: ''
-};
 
 class DayWorkGymPage extends React.Component {
 
@@ -42,6 +34,7 @@ class DayWorkGymPage extends React.Component {
         this.setState({
             loading: false,
         });
+
     }
 
     render() {

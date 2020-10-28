@@ -16,7 +16,7 @@ export default function () {
         <GymStack.Screen name={'Lista pesate'} component={WeightListPage}/>
         <GymStack.Screen name={'Aggiungi Peso'} component={WeightAddPage}/>
         <GymStack.Screen name={'Aggiungi esercizio di giornata'} component={DayWorkGym}/>
-        <GymStack.Screen name={'Lista esercizi svolti '} component={DayWorkGymListPage}/>
+        <GymStack.Screen name={'Lista esercizi svolti'} component={DayWorkGymListPage}/>
         <GymStack.Screen name={'Logout'} component={Logout}/>
     </GymStack.Navigator>
 )

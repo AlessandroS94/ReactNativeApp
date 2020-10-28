@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, View, Linking, Image, TouchableOpacity} from 'react-native';
+import {Text, View, Image, TouchableOpacity} from 'react-native';
 
 import {CardItem} from '../../components';
 import Card from '../../components/Card';
@@ -13,26 +13,26 @@ export default class ExerciseItem extends Component {
 
     render() {
         const {exercise: {title, description, date }} = this.props;
-        return (
-            <Card>
-                <View style={styles.container}>
+            return (
+                <Card>
+                    <View style={styles.container}>
+                        <CardItem>
+                            <Text>{title}</Text>
+                        </CardItem>
+                        <TouchableOpacity onPress={this.props.onPress}
+                                          style={[styles.actionButton, styles.actionContainer]}>
+                            <Image style={styles.trashIcon} source={require('../../asset/trash.png')}></Image>
+                        </TouchableOpacity>
+                    </View>
+
                     <CardItem>
-                        <Text>{title}</Text>
+                        <Text>{description}</Text>
                     </CardItem>
-                    <TouchableOpacity style={[styles.actionButton, styles.actionContainer]}>
-                        <Image style={styles.trashIcon} source={require('../../asset/trash.png')}></Image>
-                    </TouchableOpacity>
-                </View>
-
-                <CardItem>
-                    <Text>{description}</Text>
-                </CardItem>
-                <CardItem>
-                    <Text>{date}</Text>
-                </CardItem>
-            </Card>
+                    <CardItem>
+                        <Text>{date}</Text>
+                    </CardItem>
+                </Card>
         );
-
     }
 }
 
@@ -72,5 +72,9 @@ const styles = {
         height:25,
         width: 25,
         justifyContent: 'center',
-    }
+    },
+    noElementText: {
+        textAlign: 'center',
+        fontSize: 14,
+    },
 };

@@ -16,9 +16,9 @@ const INITIAL_STATE = {
     loading: false,
     loadingSeconds: 0,
     exerciseForm: {
-        title: '',
-        description: '',
-        date:''
+        title: ' ',
+        description: ' ',
+        date: ' '
     }
 };
 

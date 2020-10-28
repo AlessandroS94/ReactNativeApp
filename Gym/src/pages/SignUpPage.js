@@ -12,6 +12,7 @@ import {
     LinkButton,
 } from '../components';
 import {connect} from 'react-redux';
+import {firestore} from '../firebase/firebase';
 
 
 const INITIAL_STATE = {
@@ -71,7 +72,9 @@ class SignUpPage extends React.Component {
             loading: true,
         });
 
-        firebase.auth().createUserWithEmailAndPassword(this.state.email, this.state.password).then(this.onSignUpSuccess).catch((error) => {
+        firebase.auth().createUserWithEmailAndPassword(this.state.email, this.state.password).then(
+            this.onSignUpSuccess
+        ).catch((error) => {
             // Handle Errors here.
             console.log(error.code, error.message);
             this.onSignUpFailure(error.message);

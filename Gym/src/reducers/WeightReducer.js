@@ -38,7 +38,7 @@ export default function(state = INITIAL_STATE, action) {
                 ...state,
                 weights: [
                     ...(state.weights.filter(
-                        (weight) => {weight.id == action.payload.weight.id;})),
+                        (weight) => {weight.id !== action.payload.weight.id;})),
                 ],
             };
         default:

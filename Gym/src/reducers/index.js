@@ -5,7 +5,7 @@ import UserReducer from './UserReducer';
 import WeightReducer from './WeightReducer';
 import VideoReducer from './VideoReducer';
 import ExerciseReducer from './ExerciseReducer';
-import ExerciseListReducer from './EserciseListReducer';
+
 
 const rootReducer = combineReducers({
     app: AppReducer,
@@ -13,7 +13,7 @@ const rootReducer = combineReducers({
     weight:WeightReducer,
     video:VideoReducer,
     exercise: ExerciseReducer,
-    exerciseList:ExerciseListReducer
+
 });
 
 export default rootReducer;

@@ -51,13 +51,14 @@ export const appExerciseFormSet = function () {
         const description = sExerciseDescription(storeState);
         const date = sExerciseDate(storeState);
         const userID = firebase.auth().currentUser.uid;
-        const exerciseRef = firestore.collection('exercise_' + userID).doc();
+        const exerciseRef = firestore.collection('exercise').doc();
 
         exerciseRef
             .set({
                 title: title,
                 description: description,
                 date:date,
+                userID: userID
             })
             .then(function(docRef) {
                 alert('Esercizio Inserito');
