@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 import "firebase/firestore";
 const firebaseConfig = {
-    apiKey: "AIzaSyCKnysyPZWn4frlHf0ZDMKu7n8L4um6jQw",
+    apiKey: "",
     authDomain: "gym-project-c14a1.firebaseapp.com",
     databaseURL: "https://gym-project-c14a1.firebaseio.com",
     projectId: "gym-project-c14a1",
