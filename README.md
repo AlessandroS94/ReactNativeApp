@@ -27,6 +27,7 @@ View Youtube Playlist
 ## Setup
 To run this project, install it locally using npm:
 IOS:
+> Before must be set the token of Firebase
 
 ```
 $ npm install
@@ -34,6 +35,7 @@ $ npx pod-install
 $ npx react-native run-ios
 
 ```
+
 
 ## Images
 Login   
