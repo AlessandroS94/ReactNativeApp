@@ -2,6 +2,13 @@
 [![React Native](https://img.shields.io/badge/React_Native-Mobile_Development-blue)](https://reactnative.dev/)
 [![HTML5](https://img.shields.io/badge/HTML5-Markup_Language-orange)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Programming_Language-blue)](https://www.typescriptlang.org/)
+[![iOS](https://img.shields.io/badge/iOS-App_Development-lightgrey)](https://developer.apple.com/ios/)
+[![Android](https://img.shields.io/badge/Android-App_Development-green)](https://developer.android.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-Backend_as_a_Service-yellow)](https://firebase.google.com/)
+[![React Native Youtube](https://img.shields.io/badge/React_Native_Youtube-Video_Integration-red)](https://github.com/inProgress-team/react-native-youtube)
+[![Redux](https://img.shields.io/badge/Redux-State_Management-purple)](https://redux.js.org/)
+
+
 ## Gym
 React Native Project - Gym Accademic project
 ## Description
