@@ -1,5 +1,7 @@
 # ReactNativeApp
-
+[![React Native](https://img.shields.io/badge/React_Native-Mobile_Development-blue)](https://reactnative.dev/)
+[![HTML5](https://img.shields.io/badge/HTML5-Markup_Language-orange)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Programming_Language-blue)](https://www.typescriptlang.org/)
 ## Gym
 React Native Project - Gym Accademic project
 ## Description
