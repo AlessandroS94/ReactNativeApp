@@ -27,7 +27,7 @@ View Youtube Playlist
 ## Setup
 To run this project, install it locally using npm:
 IOS:
-> Before must be set the token of Firebase
+> Before must be set the token of Firebase on the specific file
 
 ```
 $ npm install
