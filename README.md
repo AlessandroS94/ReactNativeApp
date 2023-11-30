@@ -14,7 +14,7 @@ React Native Project - Gym Accademic project
 ## Description
 
 The goal was to manage the exercises for a particular user with memo and Youtube Playlist. The exercises are stored in firebase.
-Function:
+Functionality :
 - Add/Remove all weights with specific date
 - Add/Remove exercises with specific date
 - View Youtube Playlist
